@@ -22,8 +22,8 @@
 # p 5..19
 
 # if else if
-puts("Enter a number:")
-numero = gets.chomp.to_i
+# puts("Enter a number:")
+# numero = gets.chomp.to_i
 
 # if numero < 8 
 #     puts("This is true")
@@ -34,17 +34,29 @@ numero = gets.chomp.to_i
 # end
 
 
-puts("Ingrese otro valor")
-otro_valor = gets.chomp
+# puts("Ingrese otro valor")
+# otro_valor = gets.chomp
 
 
 # p numero
 # p otro_valor
 
-if numero == 3 && otro_valor == "hola"
-    puts("se cumple la primer condicion")
-elsif numero == 3 && otro_valor == "adios"
-    puts("se cumple la segunda condicion")
-else
-    puts("no se cumple ninguna condicion")
+# if numero == 3 && otro_valor == "hola"
+#     puts("se cumple la primer condicion")
+# elsif numero == 3 && otro_valor == "adios"
+#     puts("se cumple la segunda condicion")
+# else
+#     puts("no se cumple ninguna condicion")
+# end
+
+age = 22
+ticket = ''
+id =''
+if age > 21 && ticket && id
+    puts("You are good to enter")
+end
+
+# or operator
+if age > 21 || ticket || id
+    puts("You are good to enter")
 end
