@@ -53,7 +53,35 @@ resultado =  names.fetch(200,'no existe')
 # p numbers.slice(-3)
 
 # It's replacing the element at index 1 with the string "kiwi".
-fruits = ["apple", "banana", "orange", "pear", "grape"]
-fruits[1] = "kiwi"
-p fruits
+# fruits = ["apple", "banana", "orange", "pear", "grape"]
+# fruits[1] = "kiwi"
+# p fruits
 
+
+# It's printing the length of the array.
+# numbers = [1,2,3,4,5,6,7,8,9,10]
+# p numbers.length
+
+# It's counting the number of times the number 3 appears in the array.
+# numbers = [1,2,3,3,5,6,4,8,5,10]
+# p numbers.count(3)
+
+# It's printing the length of the array.
+# puts ["fernando", "armando", "juan"].empty?
+# puts [].empty?
+
+# puts nil.nil?
+
+
+
+# It's printing the first and last elements of the array.
+# arr=[1,2,3,4,5,6,7,8,9,10]
+# p arr.first
+# p arr.first(3)  
+
+# p arr.last
+# p arr.last(3)
+
+locations = ["mexico", "argentina", "chile", "peru"]
+locations.push("bolivia")
+p locations
