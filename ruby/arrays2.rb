@@ -103,22 +103,29 @@
 #     end
 # end
 
-# print_if(array)
-numbers = [1,2,3,4,5,6,7,8,9,10]
+# # print_if(array)
+# numbers = [1,2,3,4,5,6,7,8,9,10]
 
-# respuesta = numbers.map do |element|
-#    element  * element
+# # respuesta = numbers.map do |element|
+# #    element  * element
+# # end
+
+# # p respuesta
+# squares = numbers.map { |element| element + 2  };
+# p squares
+
+
+# def cubes(array)
+#     array.map do |element|
+#         p element ** 3
+#     end
 # end
 
-# p respuesta
-squares = numbers.map { |element| element + 2  };
-p squares
+# cubes([1,2,3,4,5])
 
 
-def cubes(array)
-    array.map do |element|
-        p element ** 3
-    end
+def evens_and_odds(array)
+even, odd = array.partition{ |element| element.even? }
 end
-
-cubes([1,2,3,4,5])
+even, odd = evens_and_odds([1,3,5])
+p "even:#{even}, odd: #{odd}"
