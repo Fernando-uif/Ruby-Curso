@@ -39,25 +39,25 @@
 # end
 
 
-def value_count(hash, number) 
-    value_numbers = []
-    hash.each do |element| 
-        value_numbers.push(element[1])
-    end
-    value_numbers.count(number)
-end
+# def value_count(hash, number) 
+#     value_numbers = []
+#     hash.each do |element| 
+#         value_numbers.push(element[1])
+#     end
+#     value_numbers.count(number)
+# end
 
-def value_count2(hash, number) 
-    hash.values.count(number)
-end
+# def value_count2(hash, number) 
+#     hash.values.count(number)
+# end
 
-hash = {
-    a:5,
-    b:2,
-    c:3,
-    d:5
-}
-p value_count2( hash, 5 )
+# hash = {
+#     a:5,
+#     b:2,
+#     c:3,
+#     d:5
+# }
+# p value_count2( hash, 5 )
 
 # salaries = {
 #     director:100000,
