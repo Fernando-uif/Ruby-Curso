@@ -39,17 +39,22 @@
 # puts flashy
 
 class Gadget
-    def initialize
-        @username = "User #{rand(1..100)}"
-        @password = "topSecret"
+    attr_accessor :username
+    attr_reader :production_number
+    attr_writer :pasword
+
+    def initialize(username, password)
+        @username = username
+        @password = password
         @production_number = "#{("a".."z").to_a.sample}"
     end
 
-    def info
-        "gadget #{@production_number} has the uername #{@username}"
-    end
+ 
 end
 
-gad = Gadget.new
-p gad.info
+phone = Gadget.new('fernando','contrasenia')
+p phone.username
+p phone.production_number
 
+ phone.username = "Helloo desde setter"
+p phone.username
