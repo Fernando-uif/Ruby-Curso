@@ -38,23 +38,23 @@
 
 # puts flashy
 
-class Gadget
-    attr_accessor :username
-    attr_reader :production_number
-    attr_writer :pasword
+# class Gadget
+#     attr_accessor :username
+#     attr_reader :production_number
+#     attr_writer :pasword
 
-    def initialize(username, password)
-        @username = username
-        @password = password
-        @production_number = "#{("a".."z").to_a.sample}"
-    end
+#     def initialize(username, password)
+#         @username = username
+#         @password = password
+#         @production_number = "#{("a".."z").to_a.sample}"
+#     end
 
  
-end
+# end
 
-phone = Gadget.new('fernando','contrasenia')
-p phone.username
-p phone.production_number
+# phone = Gadget.new('fernando','contrasenia')
+# p phone.username
+# p phone.production_number
 
- phone.username = "Helloo desde setter"
-p phone.username
+#  phone.username = "Helloo desde setter"
+# p phone.username
